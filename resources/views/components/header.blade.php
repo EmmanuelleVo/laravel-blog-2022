@@ -30,6 +30,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>{{ config('app.name') }}</title>
     {{--@vite('resources/css/app.css')--}}
+
+    @livewireStyles
+
 </head>
 <body class="bg-gray-200">
 <div class="overflow-x-hidden bg-gray-100">
